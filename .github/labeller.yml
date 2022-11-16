@@ -1,0 +1,31 @@
+assets:
+  - assets/*
+
+build:
+  - .dockerignore
+  - example.env
+  - package.json
+
+configuration:
+  - conf/*
+  
+documentation:
+  - docs/*
+  - README
+  - README.md
+  - CHANGELOG.md
+  - site.webmanifest 
+
+repo:
+  - any: ['*', '!README*', '!CHANGELOG*'¨, 'site.*']
+  
+source:
+  - src/*
+
+
+
+test:
+  - spc/*
+
+github:
+  - .github/*
